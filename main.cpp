@@ -35,8 +35,15 @@ public:
     }
 };
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
+    
+    Solution so;
+    
+    vector<int> v = {3,2,1,5,6,4};
+    
+    int k=2;
+    
+    cout << so.findKthLargest(v, k) << endl;
+    
     return 0;
 }
